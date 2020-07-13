@@ -146,7 +146,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # Define the board with values that should create the desired output
       # *** Edit the line below **
       board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"] # This is not correct
-      
+
       output = capture_puts{ display_board(board) }
       rows = output.split("\n")
 
